@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance-JS-403-03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>Charle's Tip Calculator</h1>
+        </div>
+        <hr>
+
+        <section>
+            <p>How much was your bill?</p>
+            <label for="t">$</label>
+            <input type="text" id="amount">
+        </section>
+
+        <section>
+            <p>How was your service?</p>
+            <select name="" id="sel">
+                <option value="">--Choose an option--</option>
+            </select>
+        </section>
+
+        <section>
+            <p>How many people are sharing the bill?</p>
+            <input type="text" id="ppl"><label for="ppl">people.</label>
+        </section>
+
+        <button id="btn" onclick="cal()">CALCULATE!</button>
+
+        <div class="foot">
+            <p>TIP AMOUNT</p>
+            <div class="tip"><span>$</span><h1 id="bill">0.00</h1></div>
+            <p>each</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

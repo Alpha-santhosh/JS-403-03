@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-burger-fries-wooden-board-with-copyspace_23-2148238459.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    background-color: #F9F9F7;
+    margin: 35px auto;
+    width: 350px;
+    border-radius: 3px;
+    padding: 40px;
+    color: #4B2423;
+}
+
+.main p{
+    margin-bottom: 10px;
+}
+.top h1{
+    text-align: center;
+}
+hr{
+    margin: 18px auto;
+}
+section{
+    margin-bottom: 20px;
+}
+button{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #6C2726;
+    padding: 18px;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.press{
+    background-color: #341413;
+}
+
+#amount{
+    margin-left: 3px;
+}
+
+#ppl{
+    margin-right: 5px;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    width: 40%;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.foot p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+select{
+    outline: none;
+    padding: 8px;
+}
+.tip{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
